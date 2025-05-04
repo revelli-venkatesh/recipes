@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fffbf0;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header Styling */
+header {
+  background-color: #ff6f61;
+  color: white;
+  padding: 20px;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #ffcc66;
+}
+
+/* Recipe Sections */
+section {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+  border-bottom: 2px solid #ff6f61;
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #555;
+}
+
+/* Recipe Image */
+img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 5px;
+  display: block;
+  margin: 10px auto;
+}
+
+/* List Formatting */
+ul, ol {
+  text-align: left;
+  margin-left: 20px;
+}
+
+/* Button Styling */
+button {
+  background-color: #007BFF;
+  color: white;
+  padding: 12px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
